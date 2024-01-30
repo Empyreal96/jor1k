@@ -77,8 +77,8 @@ function Start() {
     var pushState = false, loadUserData = false;
     var userid = getQueryVariable("user");
     if (userid == false) {
-       //userid = RandomString(10);
-	   userid = wpopenrisc;
+       userid = RandomString(10);
+	   //userid = wpopenrisc;
        pushState = true;
     } else {
        loadUserData = true;
